@@ -1,0 +1,574 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: #e4e6eb;
+    border: none;
+}
+body{
+    background: #18191a;
+    min-height: 100%;    
+}
+header{
+    padding-top: .5rem;
+    background: #242526;
+    padding-bottom: .5rem;
+    /*position: fixed;
+    width: 100%;*/
+}
+.nav{
+    margin-top: 30px;    
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    width: 90%;
+    max-width: 1140px;
+    height: 100%;
+    margin: auto;
+    gap: 10px;
+    overflow: hidden;
+    
+}
+[class^="nav_item"]:hover{
+    color: black;  
+}
+.nav_item5:hover{
+    color:cadetblue;
+}
+.nav_item4:hover{
+    color:rgb(152, 227, 231);
+}
+.itemmenu{
+    display: inline;
+    padding: 0 15px;
+    background: #3a3b3c;
+    border-radius: 30px;    
+    font-size: 1rem;
+}
+
+.nav_item4{
+    color: cadetblue;
+}
+.nav_logo{
+    display: flex;
+    grid-column: 1/5;    
+    font-size: 25px;
+    justify-content: center;    
+}
+.nav_menu{
+    display: flex;
+    grid-column: 5/12;  
+    justify-content: space-around;
+    align-items: center;
+}
+.iconmenu{
+    display: none;
+}
+
+
+
+/*Login*/
+
+.login{
+        
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 90%;
+    max-width: 1140px;
+    height: 90%;
+    margin: auto;  
+    gap: 10px;
+    overflow: hidden;
+      
+}
+.container_login{    
+    margin-top: 100px;
+    grid-column: 2/3;  
+    text-align: center;
+}
+
+
+.email_label{
+    margin: 25px auto 0 auto;
+}
+.email_label_input{
+    width: 100%;   
+    margin: 10px auto;
+}
+.email_input_input{
+    width: 100%;
+    height: 40px;
+   
+}
+.pass_label_item, .email_label_item{
+    font-size: 22px; 
+}
+
+.pass_label{
+    margin: 10px auto 0 auto;
+}
+.pass_label_input{
+    width: 100%;
+   
+    margin: 10px auto;
+}
+.pass_input_input{
+    width: 100%;
+    height: 30px;
+   
+}
+.button_login{
+    margin-top: 10px;
+    width: 50%;
+    height: 30px;
+    background: #3a3b3c;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.button_login:hover{
+    cursor: pointer;
+    color:rgb(152, 227, 231);
+    background: #242526;
+   
+}
+
+
+.required{   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #d93025;
+    text-align: center;
+}
+.required img{
+    margin-right: 5px;
+}
+.forgot_pass_active_input,.forgot_pass_active_link{
+    display:inline-block;
+}
+
+.forgot_pass_active{
+    margin-bottom: 10px; 
+    margin-top: 10px;   
+}
+.create_account{
+    margin-top: 25px;
+}
+
+input{
+    border-radius: 20px;
+    color: #131414;
+    text-align: center;
+    background: #3a3b3c;
+    font-size: 18px;
+}
+input:focus:invalid {
+    box-shadow: 0 0 5px 1px red;
+}
+input:focus:valid {
+    box-shadow: 0 0 5px 1px green;
+}  
+
+input::placeholder{
+   text-align: center;
+   color: #b0b3b8;
+}
+
+/*Register*/
+.register{
+           
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 90%;
+    max-width: 1140px;
+    height: 90%;
+    margin: auto;
+    gap: 10px;
+    overflow: hidden;      
+}
+.container_register{
+    margin-top: 100px;
+    grid-column: 2/3;
+    text-align: center;
+}
+.email_label_register{
+    margin: 25px auto 0 auto;
+}
+.email_label_input_register{
+    width: 100%;   
+    margin: 10px auto;
+}
+.email_input_input_register{
+    width: 100%;
+    height: 40px;
+   
+}
+.pass_label_item_register, .email_label_item_register{
+    font-size: 22px; 
+}
+
+.pass_label_register{
+    margin: 10px auto 0 auto;
+}
+.pass_label_input_register{
+    width: 100%;
+   
+    margin: 10px auto;
+}
+.pass_input_input_register{
+    width: 100%;
+    height: 40px;
+   
+}
+.button_register:disabled{
+    
+    margin-top: 10px;
+    width: 50%;
+    height: 30px;    
+    border-radius: 20px;
+    font-size: 20px;
+    color:#aeb0b4!important;
+    background:#202122;
+}
+
+.button_register:enabled{
+    margin-top: 10px;
+    width: 50%;
+    height: 30px;
+    background: #3a3b3c;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.button_register:enabled:hover{
+    cursor: pointer;
+    color:rgb(152, 227, 231);
+    /*background: #242526;*/
+}
+.airport_label_register{
+    margin: 10px auto 0 auto;
+}
+.airport_label_input_register{
+    width: 100%;
+    
+    margin: 10px auto;
+}
+.airport_input_input_register{
+    width: 100%;
+    height: 40px;   
+}
+.airport_label_item_register{
+font-size: 22px;
+}    
+.login_register{
+    margin-top: 25px;
+}
+.pass_info{
+    
+    padding: 5px 0;
+    grid-column: 3/4;
+    margin-top: 180px;
+    border: grey solid 1px;
+    border-radius: 20px;
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    background: #3a3b3c;
+}
+.non{
+    display: none;
+}
+
+
+.invalid{
+    color: red;
+}
+.valid{
+    color: green;
+}
+.term{
+    margin:20px 0 ;
+}
+
+.datalistdiv{
+    overflow-y: auto;
+    width: 336px;       
+    height: 246px;
+    height: fit-content;
+    text-align: center;
+    margin: auto;
+    
+
+}
+.datalist li{
+   padding: 2px;
+    margin-top: 0.2em;
+    background-color: #3a3b3c;
+    
+}
+.datalist li:hover{
+    
+    cursor: pointer;
+   
+    background-color: #0f0f0f;
+    
+}
+.user,.polity{
+    color:#68e4e8;
+}
+
+.error{
+    margin: 10px 0;
+    color: #d93025;
+}
+
+/*clase de prueba*/
+.add{
+    background: red;
+}
+
+/*Forgot*/
+.forgot{
+    margin-top: 30px;        
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 90%;
+    max-width: 1140px;
+    height: 90%;
+    margin: auto;
+    gap: 10px;
+    overflow: hidden;  
+}
+.container_forgot{
+    margin-top: 30px;
+    grid-column: 2/3;
+    text-align: center;
+}
+
+.button_forgot:enabled{
+    margin-top: 10px;
+    width: 95%;
+    height: 30px;
+    background: #3a3b3c;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.button_forgot:enabled:hover{
+    cursor: pointer;
+    color:rgb(152, 227, 231);
+    /*background: #242526;*/
+}
+.button_forgot:disabled{
+    
+    margin-top: 10px;
+    width: 95%;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 20px;    
+    color:#aeb0b4!important;
+    background:#202122;
+}
+
+/*app*/
+
+/*Policy*/
+.container_policy{
+    display: grid;    
+    margin: 20px;
+    padding: 5px;
+    align-items: center;
+}
+/*userAgrement*/
+.container_userAgrement{
+    display: grid;    
+    margin: 20px;
+    padding: 5px;
+    text-align: center;
+
+}
+/*footer*/
+.footer{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    
+    width: 100%;
+    height: 20px;
+    background: #3a3b3c;
+    align-items: center;
+    text-align: center;
+    font-size: small;
+
+}
+/*Contact*/
+
+.contact{
+    margin-top: 30px;        
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    width: 90%;
+    max-width: 1140px;
+    height: 90%;
+    margin: auto;
+    gap: 10px;
+    overflow: hidden;  
+}
+.container_contact{
+    margin-top: 100px;
+    
+    text-align: center;
+    
+}
+textarea{
+    width: 520px;
+    height: 200px;
+    resize: vertical;
+    color: #131414;
+    padding: 5px;
+    overflow:hidden;
+    background: #3a3b3c;
+    font-size: 18px;
+}
+textarea::placeholder{
+    background: #3a3b3c;
+    color: #b0b3b8;
+    font-size: 18px;
+    padding: 5px;
+    
+
+ }
+.button_contact:disabled{
+    
+    margin: 30px 0;
+    width: 20%;
+    height: 30px;    
+    border-radius: 20px;
+    font-size: 20px;
+    color:#aeb0b4!important;
+    background:#202122;
+}
+
+.button_contact:enabled{
+    margin: 30px 0;
+    width: 20%;
+    height: 30px;
+    background: #3a3b3c;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.button_contact:enabled:hover{
+    cursor: pointer;
+    color:rgb(152, 227, 231);
+    /*background: #242526;*/
+}
+.email_label_contact{
+    margin: 25px auto 0 auto;
+}
+.email_label_input_contact{
+    width: 40%;   
+    margin: 10px auto;
+}
+.email_input_input_contact{
+    width: 100%;
+    height: 40px;
+   
+}
+.text_label_item_contact,.email_label_item_contact,.name_label_item_contact{
+    font-size: 22px;
+}
+.name_label_contact{
+    margin: 10px auto 0 auto;
+}
+.name_label_input_contact{
+    width: 40%;
+   
+    margin: 10px auto;
+}
+.name_input_input_contact{
+    width: 100%;
+    height: 40px;
+   
+}
+
+.text_label_input_contact{
+    margin: 10px auto;
+}
+.text_label_contact{
+    margin: 10px auto 0 auto;
+}
+/*COOKIES*/
+
+.container_cookies{
+    display: grid;
+    
+    margin: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+/*COOKIES ADVISE*/
+.cookies_bar.active{
+    display: flex;
+}
+
+.cookies_bar{
+    display: none;
+    flex-direction: column;
+    z-index: 100;
+    background: #b0b3b8;
+    padding: 15px;
+    width: 1000px;
+    height: 150px;
+    
+    border: #aeb0b4 1px solid;
+    border-radius: 10px;
+    
+    position: fixed;
+    top: 25%;
+    
+    left: 25%;
+}
+.content_cookies{
+
+    margin-top: 30px;
+
+}
+.img_cookies{
+    position: absolute;
+    top: -32px;
+    right: calc(50% - 32px);
+}
+.btn_cookies{
+    display: inline-block;
+    margin-top: 10px;
+    
+    margin-left: calc(50% - 96.8px);
+    white-space: nowrap;
+    border-radius: 20px;
+    
+    width: 20%;
+    height: 30px;
+    background: #3a3b3c;
+    font-size: 20px;
+}
+.btn_cookies:hover{
+    background: #242526;
+    cursor: pointer;
+}
+
+.cookies_bar h3{
+    text-align: center;
+}
+.fontcookies{
+    display: none;
+    position: fixed;
+    z-index: 99;
+    background: rgba(0, 0, 0, 0.8);
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+.fontcookies.activefont{
+    display: block;
+}

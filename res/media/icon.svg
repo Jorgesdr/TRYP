@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="14"
+   height="16"
+   viewBox="0 0 3.7041666 4.2333332"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="icon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     width="15px"
+     units="px"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="33.542416"
+     inkscape:cx="4.1589133"
+     inkscape:cy="9.346375"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     height="16px" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-5.5521893,-5.254101)">
+    <g
+       id="g892"
+       transform="matrix(1.0559212,0,0,1.0201458,5.2541045,-293.43773)">
+      <ellipse
+         ry="0.59429109"
+         rx="0.83712077"
+         cy="293.9281"
+         cx="2.3257146"
+         id="path4537-7"
+         style="fill:none;fill-opacity:1;stroke:#e6b30e;stroke-width:0.15;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cscsc"
+         inkscape:connector-curvature="0"
+         id="path4539-5"
+         d="m 2.5359139,296.83097 c 0,0 0.9821197,-1.47465 1.1389054,-2.60853 0.1807277,-1.30697 -1.1372265,-1.31343 -1.1372265,-1.31343 0,0 -1.54172928,-0.30303 -2.07040074,1.03967 -0.51756366,1.31448 2.06872184,2.88229 2.06872184,2.88229 z"
+         style="display:inline;fill:none;stroke:#0075be;stroke-width:0.15;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.811765" />
+    </g>
+  </g>
+</svg>

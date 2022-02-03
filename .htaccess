@@ -1,0 +1,11 @@
+
+
+RewriteEngine On
+
+# RewriteCond %{HTTP_HOST} ^organizingyourtrip.com
+
+# RewriteRule ^(.*) http://www.organizingyourtrip.com/$1 [QSA,L,R=301]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
